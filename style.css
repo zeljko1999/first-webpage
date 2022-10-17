@@ -79,6 +79,7 @@ h1{
 .main-text{
     display: flex;
     flex-direction: column;
+    width: 400px;
 }
 
 .subheading{
