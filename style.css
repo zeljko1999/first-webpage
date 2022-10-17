@@ -1,7 +1,3 @@
-a,h1, .hero-secondary{
-    font-family: "Roboto", "Times New Roman", sans-serif;
-}
-
 a, .hero-secondary{
     text-decoration: none;
     font-size: 18px;
@@ -9,10 +5,12 @@ a, .hero-secondary{
 }
 
 body{
-    background-color: #1F2937;
     min-height: 100vh;
     display:flex;
     flex-direction: column;
+    font-family: "Roboto", "Times New Roman", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 h1{
@@ -21,7 +19,7 @@ h1{
     color: #F9FAF8;
 }
 
-button{
+.signup-top{
     background: #3882F6;
     border: none;
     border-radius: 8px;
@@ -38,6 +36,7 @@ button{
     display: flex;
     flex-direction: column;
     padding: 8px 86px 64px 86px;
+    background-color: #1F2937;
 }
 
 .h1{
@@ -60,10 +59,88 @@ button{
     gap: 40px;
 }
 
+.content1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures{
+    display:flex;
+    gap:44px;
+}
+
+.pic{
+    display:flex;
+    flex-direction: column;
+    width:144px;
+    text-align:center;
+}
 .main-text{
     display: flex;
     flex-direction: column;
 }
 
+.subheading{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
 
+.testimonial{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.content2{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30vh;
+}
 
+.quoter{
+    align-self: end;
+}
+
+.content3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    background-color: #3882F6;
+    margin: 70px 200px;
+    gap: 50px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.signup-bottom{
+    border:2px white;
+    background: #3882F6;
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-weight: bold;
+    color: white;
+    border-color: white;
+    border-style: solid;
+}
+
+.hero-secondary.call-to-action{
+    font-size:24px;
+    font-weight: bold;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+
+.call-to-action-sub
+{
+    margin-top: 0px;
+}
